@@ -14,6 +14,11 @@ public:
 	void setID();
 	void printAll();
 
+	//pembuatan construction Mahasiswa dengan parameter pnama
+	Mahasiswa(string pnama) :nama(pnama) {
+		setID();
+	}
+
 };
 
 int main() {
