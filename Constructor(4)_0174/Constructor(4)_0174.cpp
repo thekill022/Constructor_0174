@@ -53,5 +53,9 @@ int main() {
     //pembuatan dan pemberian nilai object
     angka belajarcpp(3);
     angka* ptrBelajarcpp = new angka(5);
+    //mendelete variabel pointer ptrBelajarcpp untuk membebaskan memori
+    delete ptrBelajarcpp;
+
+    return 0;
 
 }
