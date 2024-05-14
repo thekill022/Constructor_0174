@@ -18,8 +18,16 @@ public:
     {
         return this->judul;
     };
-};
+}bukunya;
 
 int main() {
+    //menggunakan function biasa
+   // bukunya.setJudul("matematika");
+   //cout << bukunya.getJudul;
+
+    //menggunakan chain function calls
+    cout << bukunya.setJudul("Matematika").getJudul();
+
+    return 0;
 
 }
