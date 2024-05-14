@@ -8,7 +8,8 @@ public:
     //pembuatan object prosedur setJudul()
     buku setJudul(string judul)
     {
-    
+        //pemberian nilai member judul dalam object dengan menggunakan this
+        this->judul = judul;
     }
 };
 
