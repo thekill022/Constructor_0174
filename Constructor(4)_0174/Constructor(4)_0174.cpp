@@ -22,6 +22,17 @@ angka::angka(int i) {
     isiData();
 };
 
+//pendefinisian destructor ~angka() diluar class
+angka::~angka() {
+
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "alamat array sudah dilepas" << endl;
+
+};
+
+
 int main() {
 
 }
