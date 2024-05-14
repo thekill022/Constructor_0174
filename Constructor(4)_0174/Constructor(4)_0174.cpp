@@ -50,4 +50,8 @@ void angka::isiData() {
 
 int main() {
 
+    //pembuatan dan pemberian nilai object
+    angka belajarcpp(3);
+    angka* ptrBelajarcpp = new angka(5);
+
 }
