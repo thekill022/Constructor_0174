@@ -10,7 +10,9 @@ public:
     angka(int);
     //deklarasi destructor ~angka()
     ~angka();
-    
+    //deklarasi prosedur cetakData() dan isiData()
+    void cetakData();
+    void isiData();
 };
 
 
