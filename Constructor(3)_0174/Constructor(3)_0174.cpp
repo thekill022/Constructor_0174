@@ -15,7 +15,11 @@ public:
 	Mahasiswa(int iNim) {
 		nim = iNim;
 	};
-}
+
+	//deklarasi constructor dengan parameter
+	Mahasiswa(string);
+	Mahasiswa(int iNim, string iNama);
+};
 
 int main() {
 
