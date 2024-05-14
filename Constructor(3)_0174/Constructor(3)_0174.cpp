@@ -23,6 +23,18 @@ public:
 	void cetak();
 };
 
+//pendefinisial constructor diluar class
+Mahasiswa::Mahasiswa(string iNama) {
+	nim = 174;
+	nama = iNama;
+};
+
+Mahasiswa::Mahasiswa(int iNim, string iNama) {
+	nim = iNim;
+	nama = iNama;
+};
+
+
 int main() {
 
 }
