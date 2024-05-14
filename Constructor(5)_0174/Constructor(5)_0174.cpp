@@ -10,7 +10,10 @@ public:
     {
         //pemberian nilai member judul dalam object dengan menggunakan this
         this->judul = judul;
-    }
+        //membuat pointer this agar bisa menjalankan chain function
+        return *this;
+    };
+  
 };
 
 int main() {
