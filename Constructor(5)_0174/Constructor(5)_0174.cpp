@@ -13,7 +13,11 @@ public:
         //membuat pointer this agar bisa menjalankan chain function
         return *this;
     };
-  
+    //pembuatan method getJudul()
+    string getJudul()
+    {
+        return this->judul;
+    };
 };
 
 int main() {
