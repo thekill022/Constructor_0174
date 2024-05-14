@@ -48,4 +48,13 @@ int main() {
 	Mahasiswa mhs3("Gibran Fathoni");
 	Mahasiswa mhs4(181, "Duta Brahmana");
 
+	//memanggil prosedur cetak()
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+	system("pause");
+
+	return 0;
+
 }
