@@ -42,4 +42,10 @@ void Mahasiswa::cetak() {
 
 int main() {
 
+	//pembuatan dan pemberian nilai pada object
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(174);
+	Mahasiswa mhs3("Gibran Fathoni");
+	Mahasiswa mhs4(181, "Duta Brahmana");
+
 }
