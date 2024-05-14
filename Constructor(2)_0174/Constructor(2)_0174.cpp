@@ -44,4 +44,11 @@ void Mahasiswa::printAll() {
 
 int main() {
 
+	//pembuatan object dan pemberian nilai
+	Mahasiswa mhs1("Sri Dadi");
+	Mahasiswa mhs2("Budi Jatmiko");
+	Mahasiswa mhs3("Andi Janu");
+	Mahasiswa mhs4("Joko Wahono");
+
+
 }
