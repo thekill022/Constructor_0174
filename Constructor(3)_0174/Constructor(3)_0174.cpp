@@ -34,6 +34,11 @@ Mahasiswa::Mahasiswa(int iNim, string iNama) {
 	nama = iNama;
 };
 
+//pendefinisian prosedur cetak() diluar class
+void Mahasiswa::cetak() {
+	cout << endl << "Nim = " << nim << endl;
+	cout << "Nama = " << nama << endl;
+};
 
 int main() {
 
