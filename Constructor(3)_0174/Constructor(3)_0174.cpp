@@ -19,6 +19,8 @@ public:
 	//deklarasi constructor dengan parameter
 	Mahasiswa(string);
 	Mahasiswa(int iNim, string iNama);
+	//deklarasi prosedur cetak()
+	void cetak();
 };
 
 int main() {
